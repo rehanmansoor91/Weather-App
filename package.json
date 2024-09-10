@@ -1,10 +1,9 @@
 {
+  "homepage":"https://rehanmansoor91.github.io/Weather-Glance",
   "name": "weatherapp",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": ">=14.0.0"
-  },
+  
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -22,7 +21,7 @@
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d buld",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
