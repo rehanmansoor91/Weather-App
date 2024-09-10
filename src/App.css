@@ -286,16 +286,6 @@ div#txt {
 }
 
 
-/* For mobile phones (up to 767px) */
-@media (max-width: 767px) {
-  .temperature {
-    width: 10%; 
-    float: none; 
-    left: 0; 
-    margin: 0 auto; 
-  }
-}
-
 .temperature p {
   font-family: "Raleway", sans-serif;
   font-size: 80px;
