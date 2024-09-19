@@ -352,8 +352,7 @@ div#txt {
 .copyright p a {
   color: #fff;
 }
-/*--w3layouts--*/
-/*--agileits--*/
+
 .copyright p a:hover {
   color: #ffeb3b;
 }
@@ -396,8 +395,7 @@ div#txt {
   h1 {
     font-size: 45px;
   }
-  /*--w3layouts--*/
-  /*--agileits--*/
+  
 }
 
 @media screen and (max-width: 800px) {
@@ -446,8 +444,7 @@ div#txt {
   div#txt {
     font-size: 25px;
   }
-  /*--w3layouts--*/
-  /*--agileits--*/
+  
   .dmy {
     padding-top: 17px;
   }
@@ -496,8 +493,7 @@ div#txt {
 }
 
 @media screen and (max-width: 480px) {
-  /*--w3layouts--*/
-  /*--agileits--*/
+
   h1 {
     font-size: 28px;
     letter-spacing: 2px;
