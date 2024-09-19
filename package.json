@@ -1,14 +1,14 @@
 {
-  "homepage":"https://rehanmansoor91.github.io/Weather-Glance/",
+  "homepage": "https://rehanmansoor91.github.io/Weather-Glance/",
   "name": "weatherapp",
   "version": "0.1.0",
-  "private": true,
-  
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "gh-pages": "^6.1.1",
     "react": "^16.13.1",
     "react-animated-weather": "^4.0.1",
     "react-dom": "^16.13.1",
@@ -20,9 +20,9 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
-    "build": "npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-script build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,4 +42,3 @@
     ]
   }
 }
-
