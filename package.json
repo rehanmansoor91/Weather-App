@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "predeploy": "npm run build",
+    "predeploy": "react-script build",
     "deploy": "gh-pages -d build",
     "build": "react-script build",
     "test": "react-scripts test",
