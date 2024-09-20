@@ -21,7 +21,6 @@
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "predeploy": "react-script build",
-    "deploy": "gh-pages -d build",
     "build": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
