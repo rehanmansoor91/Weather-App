@@ -18,7 +18,7 @@
     "skycons": "^1.0.0"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "predeploy": "react-scripts build",
     "build": "npm run build",
     "test": "react-scripts test",
