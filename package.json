@@ -18,11 +18,11 @@
     "skycons": "^1.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "react-scripts build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "NODE_ENV=development react-scripts start",   
+  "predeploy": "npm run build",                        
+  "build": "NODE_ENV=production react-scripts build",   
+  "test": "react-scripts test --watchAll --env=jsdom",  
+  "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
