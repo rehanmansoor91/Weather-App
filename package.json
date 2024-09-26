@@ -20,7 +20,7 @@
   "scripts": {
     "start": "NODE_ENV=development react-scripts start",   
   "predeploy": "npm run build",                        
-  "build": "NODE_ENV=production react-scripts build",   
+  "build": "NODE_ENV=production npm run build",   
   "test": "react-scripts test --watchAll --env=jsdom",  
   "eject": "react-scripts eject"
   },
