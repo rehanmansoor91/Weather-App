@@ -17,8 +17,8 @@ function App() {
           Rehan Mansoor
         </a>{" "}
         | Powered by{" "}
-        <a target="_blank" href="https://github.com/rehanmansoor91">
-          GitHub
+        <a target="_blank" href="https://vercel.com/rehanmansoor786786-gmailcoms-projects/weather-app/8xP3RjG1XM3vFcBkQKPbT7cz1ceu">
+          Vercel
         </a>
       </div>
     </React.Fragment>
